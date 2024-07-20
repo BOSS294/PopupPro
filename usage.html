@@ -36,13 +36,29 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #000000;
+        }
+        .btn-1 { 
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 15px;
+            font-family:fantasy;
+            box-shadow: 1px 1px 10px whitesmoke;
+            transition: all 0.3s ease;
+        }
+        .btn-1:hover { 
+            box-shadow: 2px 2px 10px whitesmoke;
+            transform:scale(1.1);
+            font-size: large;
+            cursor: pointer;
+            border-color: black;
         }
     </style>
     <script src="popup-pro.js"></script>
 </head>
 <body>
-    <button onclick="PopupPro.show({
+    <button class="btn-1" onclick="PopupPro.show({
         title: 'Login Authentication',
         message: 'Wrong password or username, Please try again',
         backgroundColor: '#333',
