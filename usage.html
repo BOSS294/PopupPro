@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopupPro Example</title>
+    <style>
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Optional: Add some basic styling for the page */
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <script src="popup-pro.js"></script>
+</head>
+<body>
+    <button onclick="PopupPro.show({
+        title: 'Login Authentication',
+        message: 'Wrong password or username, Please try again',
+        backgroundColor: '#333',
+        textColor: '#fff',
+        width: '400px',
+        borderRadius: '20px',
+        buttons: [
+            {
+                text: 'Retry', // Change button text here
+                style: 'default',
+                onClick: function() {
+                    console.log('Retry button clicked');
+                },
+                redirect: 'https://example.com/retry' // Redirection URL
+            },
+            {
+                text: 'Cancel', // Another button with different text
+                style: 'default',
+                onClick: function() {
+                    console.log('Cancel button clicked');
+                },
+                redirect: null // No redirection
+            }
+        ]
+    })">Show Popup</button>
+</body>
+</html>
