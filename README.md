@@ -55,9 +55,9 @@ PopupPro is a modern, highly customizable JavaScript library designed to enhance
 
 ### About the Developer 👨‍💻
 
-**Developer:** [BOSS294](https://github.com/BOSS294) 🌟
+**Developer:** [Mayank Chawdhari](https://github.com/BOSS294) 🌟
 
-BOSS294 is a dedicated and innovative web developer with a focus on creating elegant and user-friendly web applications. With expertise in JavaScript, CSS, and PHP, BOSS294 brings a passion for clean code and exceptional user experiences. Known for delivering high-quality solutions and continually exploring new technologies, BOSS294 is committed to advancing the field of web development and enhancing user interactions. 🚀💡
+Mayank Chawdhari is a dedicated and innovative web developer with a focus on creating elegant and user-friendly web applications. With expertise in JavaScript, CSS, and PHP, Mayank brings a passion for clean code and exceptional user experiences. Known for delivering high-quality solutions and continually exploring new technologies, Mayank is committed to advancing the field of web development and enhancing user interactions. 🚀💡
 
 ---
 
